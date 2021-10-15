@@ -9,7 +9,7 @@ import MenWork from '../img/menWork.png';
 const useStyles = makeStyles (() => ({
     leaders:{
         display: 'grid',
-       
+        gridTemplateColumns: '50em 50em',
         
     },
 
@@ -20,7 +20,7 @@ const useStyles = makeStyles (() => ({
 
     orangeBlock: {
         width: '45em',
-        height: '15em',
+        height: '20em',
         backgroundColor: '#FBB03B',
         borderRadius: '100px 0px 0px 100px',
         display: 'grid',
@@ -31,6 +31,8 @@ const useStyles = makeStyles (() => ({
     texto: {
         color: '#FFFFFF',
         width: '40em',
+        textAlign: 'center',
+        fontSize: '1em'
     },
 
 }));
@@ -48,6 +50,7 @@ function Leaders() {
                     <div className = {classes.texto}>
                         <Text />
                     </div>
+                    <ButtonBlack />
                 </div>
             </div>
         </div>
@@ -69,7 +72,6 @@ function Text() {
                         con diferentes emolientes que le confieren la
                         más alta estabilidad mecánica y química.
                     </p>
-                    <ButtonBlack />
         </div>
     )
 }
