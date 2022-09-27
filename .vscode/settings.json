@@ -1,8 +1,13 @@
 {
-    "cSpell.words": [
-        "Dass",
-        "espana",
-        "Idiomas",
-        "tabletcompleta"
+    "eslint.workingDirectories": [
+        {
+            "mode": "auto"
+        }
+    ],
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "eslint.validate": [
+        "javascript"
     ]
 }
